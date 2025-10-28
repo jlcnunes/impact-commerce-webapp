@@ -1,0 +1,26 @@
+.rowItem {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.container {
+    padding: 0 2rem;
+}
+
+
+.productRow {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.productImage {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    flex-shrink: 0;
+}
